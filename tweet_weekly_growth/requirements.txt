@@ -1,0 +1,14 @@
+functions-framework==3.*
+requests
+requests-oauthlib
+tweepy
+pandas
+numpy
+db-dtypes
+matplotlib
+seaborn
+Pillow
+google-cloud-bigquery
+google-auth
+google-auth-oauthlib
+google-cloud-core

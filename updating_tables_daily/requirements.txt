@@ -1,0 +1,7 @@
+functions-framework==3.*
+google-cloud-bigquery
+google-api-python-client
+pandas
+pandas-gbq
+PyYAML
+python-dateutil

@@ -1,0 +1,13 @@
+functions-framework==3.*
+
+google-auth-oauthlib
+pandas==2.0.3
+numpy==1.23.5
+
+pandas-gbq
+python-dateutil~=2.8.2
+requests~=2.31.0
+requests-oauthlib
+
+google-cloud-bigquery
+google-api-python-client

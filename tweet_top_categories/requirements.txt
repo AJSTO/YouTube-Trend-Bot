@@ -1,0 +1,10 @@
+functions-framework==3.*
+requests
+requests-oauthlib
+tweepy
+matplotlib
+wordcloud
+google-cloud-bigquery
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
