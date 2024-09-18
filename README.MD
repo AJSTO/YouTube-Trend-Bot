@@ -34,9 +34,6 @@ This project is integrated with a Twitter account that automatically posts updat
   <tr>
     <td>categories_names</td>
   </tr>
-  <tr>
-    <td>tweet_top_categories</td>
-  </tr>
 </table>
 
 YouTube Video Categories List you can get from this [link](https://www.jlexart.com/articles/youtube-video-categories-list-78ps).
