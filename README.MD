@@ -3,13 +3,17 @@
 This project includes a set of Google Cloud Functions that interact with the YouTube Data API and Google BigQuery to analyze YouTube trends. The results are visualized using Looker Studio dashboards and are automatically posted on Twitter.
 
 ## Overview
-![Data Flow Chart](data_flow_chart.png)
+![Data Flow Chart](images/data_flow_chart.png)
 #### The project consists of three Google Cloud Functions:
 
 * **`updating_tables_daily`**: Retrieves daily top YouTube videos, processes the data, stores it in BigQuery, and posts updates on Twitter.
 * **`tweet_weekly_growth`**: Calculates the top 5 YouTube creators with the largest growth in the last 7 days and publishes the results as a bar chart and generates a bar chart of the videos with the highest view counts in the last 7 days.
+![Weekly growth 1](images/twitter_views_growth.png)
+![Weekly growth 2](images/twitter_subs_growth.png)
 * **`tweet_daily_top`**: Retrieves the daily top videos from YouTube, generates a tweet with the video details, and posts it on Twitter
+![Top video](images/twitter_top_video.png)
 * **`tweet_top_categories`**: Analyzes and ranks the top YouTube video categories based on performance, creates a bar chart, and shares the results on Twitter.
+!Top categories](images/twitter_top_categories.png)
 * These functions collectively provide insights into YouTube trends and performance.
 
 ## Twitter Integration
