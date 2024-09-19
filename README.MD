@@ -13,7 +13,7 @@ This project includes a set of Google Cloud Functions that interact with the You
 * **`tweet_daily_top`**: Retrieves the daily top videos from YouTube, generates a tweet with the video details, and posts it on Twitter
 ![Top video](images/twitter_top_video.png)
 * **`tweet_top_categories`**: Analyzes and ranks the top YouTube video categories based on performance, creates a bar chart, and shares the results on Twitter.
-!Top categories](images/twitter_top_categories.png)
+![Top categories](images/twitter_top_categories.png)
 * These functions collectively provide insights into YouTube trends and performance.
 
 ## Twitter Integration
